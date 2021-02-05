@@ -26,6 +26,19 @@ body, html{
     font-family: 'Rubik', sans-serif;
 }
 
+/* Utility Classes */
+.mb-5{
+    margin-bottom: 20px;
+}
+
+.mb-10{
+    margin-bottom: 20px;
+}
+
+.mb-15{
+    margin-bottom: 20px;
+}
+
 .mb-20{
     margin-bottom: 20px;
 }
@@ -68,9 +81,9 @@ body, html{
     outline: none;
 }
 
-.container > form > input:not(input[type="submit"]){
+/* .container > form > input:not(input[type="submit"]){
     margin-bottom: 22px;
-}
+} */
 
 .container > form > input[type="submit"] {
     background-color: var(--sub-color) ;

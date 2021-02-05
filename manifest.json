@@ -1,0 +1,51 @@
+{
+    "name": "Vissers App",
+    "short_name": "Vissers",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#5cac1b",
+    "theme_color": "#5cac1b",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/assets/72x72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "/assets/96x96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/assets/128x128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "/assets/144x144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/assets/152x152.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "/assets/192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/assets/384x384.png",
+            "type": "image/png",
+            "sizes": "384x384"
+        },
+        {
+            "src": "/assets/512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

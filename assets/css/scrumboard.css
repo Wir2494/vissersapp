@@ -244,11 +244,6 @@
   .task-list-container {
     min-width: 309px;
     padding: 0 15px;
-    width: 467px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
  }
     .task-list-container:first-child {
       padding-left: 0; }

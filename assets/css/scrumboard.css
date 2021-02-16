@@ -497,4 +497,11 @@
   color: #3b3f5c;
   margin-bottom: 8px;
 }
+
+.w-utility-btn{
+  padding: 0 !important;
+  background-color: white;
+  box-shadow: none !important;
+  border: none;
+}
   

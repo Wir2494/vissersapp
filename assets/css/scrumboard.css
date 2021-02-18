@@ -508,3 +508,25 @@
 .w-utility-space:last-child {
   margin-bottom: 150px !important;
 }
+
+.w-utility-rounded-btn {
+  width: fit-content;
+  padding: 8px 20px !important;
+  border-radius: 100px !important;
+  border: 1px solid var(--main-accent-color);
+  font-weight: bold !important;
+}
+
+.position-sticky {
+  position: sticky;
+  bottom: 20px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+
+.w-utility-rounded-btn > svg {
+  margin-right: 1px;
+  vertical-align: middle !important;
+}

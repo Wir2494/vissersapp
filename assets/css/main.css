@@ -10,6 +10,7 @@
 */
 :root{
   --main-accent-color: #5cac1b;
+  --main-light-accent-color: #74D822;
 }
 html {
   min-height: 100%; }

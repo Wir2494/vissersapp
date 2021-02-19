@@ -557,3 +557,8 @@
   margin-right: 10px;
   margin-top: 40px;
 }
+
+.w-util-text-color-green {
+  color: var(--main-light-accent-color) !important;
+  font-size: 20px;
+}

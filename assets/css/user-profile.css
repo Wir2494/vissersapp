@@ -49,15 +49,6 @@ body.minimal .widget-content-area {
     font-weight: 600;
     color: #3b3f5c;
     margin: 6px 0px 0 0; }
-    .user-profile .widget-content-area h3:after {
-      position: absolute;
-      content: "";
-      height: 2px;
-      width: 55px;
-      background: var(--main-accent-color);
-      border-radius: 50%;
-      bottom: 9px;
-      left: 15px; }
   .user-profile .widget-content-area .user-info {
     margin-top: 40px; }
     .user-profile .widget-content-area .user-info img {

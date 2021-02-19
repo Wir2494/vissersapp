@@ -589,3 +589,12 @@
 .w-flex  > p {
   font-weight: bold;
 }
+
+.w-padding {
+  padding: 15px 17px !important;
+}
+
+.trip-info {
+  display: flex;
+  justify-content: space-between;
+}

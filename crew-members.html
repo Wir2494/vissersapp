@@ -13,12 +13,14 @@
     <link rel="stylesheet" href="assets/css/scrumboard.css">
     <link rel="stylesheet" href="assets/js/flatpickr/flatpickr.css">
     <link rel="stylesheet" href="assets/js/flatpickr/custom-flatpickr.css">
+    <link rel="stylesheet" href="assets/css/scrumboard.css">
+
     <link rel="manifest" href="/manifest.json">
     <!-- IOS -->
     <link rel="apple-touch-icon" href="/assets/96x96.png">
     <meta name="apple-mobile-web-app-status-bar" content="#5cac1b">
     <meta name="theme-color" content="#5cac1b">
-    <title>Add boat - Vissers App</title>
+    <title>Add crew member - Vissers App</title>
 </head>
 <body>    
     <div class="form-container outer">
@@ -27,49 +29,35 @@
                 <div class="form-container">
                     <div class="form-content">
                         
-                        <h1 class="">Add boat</h1>
-                        <p class="">Add the following details about the boat</p>
+                        <h1 class="">Add crew member</h1>
+                        <p class="">Add the following details about the crew member</p>
                         
                         <form class="text-left">
                             <div class="form">
-                                <div id="boat-name-field" class="field-wrapper input">
-                                    <label for="boat-name">BOAT NAME</label>
-                                    <input id="boat-name" name="boat-name" type="text" class="form-control w-form-style" placeholder="e.g Battleship USS Missouri">
+                                 <div id="boat-reg-field" class="field-wrapper input">
+                                    <label for="name-member">FIRSTNAME</label>
+                                    <input id="name-member" name="name-member" type="text" class="form-control w-form-style" placeholder="e.g John">
                                 </div>
-                                <hr>
                                 <div id="boat-reg-field" class="field-wrapper input">
-                                    <label for="boat-registration">REGISTRATION NUMBER</label>
-                                    <input id="boat-registration" name="boat-registration" type="number" class="form-control w-form-style" placeholder="e.g 239483">
+                                    <label for="name-member">LASTNAME</label>
+                                    <input id="name-member" name="name-member" type="text" class="form-control w-form-style" placeholder="e.g Doe">
                                 </div>
-                                <div id="boat-license-field" class="field-wrapper input">
-                                    <label for="boat-license">LICENSE NUMBER</label>
-                                    <input id="boat-license" name="boat-license" type="text" class="form-control w-form-style" placeholder="e.g 092EIJD923">
-                                </div>
-                                <div id="boat-expire-field" class="field-wrapper input">
-                                    <label for="boat-expire">LICENSE EXPIRE DATE</label>
-                                    <input id="basicFlatpickr" value="" class="form-control flatpickr flatpickr-input w-form-style" type="text" placeholder="Select Date.." readonly="readonly">
-                                </div>
-                                <hr>
-                                <div id="select-fish-field" class="field-wrapper input">
-                                    <label for="select-fish-type">TYPES OF FISH</label>
+                                
+                                <div id="select-role-field" class="field-wrapper input">
+                                    <label for="select-role-type">Role</label>
                                     <select class="form-control w-form-style">
                                         <option>Choose..</option>
-                                        <option>Line Fish</option>
-                                        <option>Trawl</option>
-                                        <option>Seabob</option>
-                                        <option>Shrimp</option>
+                                        <option>Captain</option>
+                                        <option>Boatswain</option>
+                                        <option>Mechanic</option>
+                                        <option>Sailor</option>
+                                        <option>Other</option>
                                     </select>
                                 </div>
-                                <div id="boat-pic" class="">
-                                    <p class="mt-4 w-typo-style">ADD A PICTURE OF YOUR BOAT</p>
-                                    <div class="custom-file mb-4">
-                                        <input type="file" class="custom-file-input mb-3" id="customFile">
-                                        <label class="custom-file-label" for="customFile">Choose file</label>
-                                    </div>
-                                </div>
+                                
                                 <div class="d-sm-flex justify-content-between">
                                     <div class="field-wrapper">
-                                        <button type="submit" class="btn btn-primary" value="">Add Boat</button>
+                                        <button type="submit" class="btn btn-primary" value="">Save member</button>
                                     </div>
                                 </div>
                             </div>

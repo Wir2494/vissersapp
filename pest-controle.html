@@ -14,13 +14,15 @@
     <link rel="stylesheet" href="assets/js/flatpickr/flatpickr.css">
     <link rel="stylesheet" href="assets/js/flatpickr/custom-flatpickr.css">
     <link rel="stylesheet" href="assets/css/scrumboard.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/custom-timeline.css">
+
 
     <link rel="manifest" href="/manifest.json">
     <!-- IOS -->
     <link rel="apple-touch-icon" href="/assets/96x96.png">
     <meta name="apple-mobile-web-app-status-bar" content="#5cac1b">
     <meta name="theme-color" content="#5cac1b">
-    <title>Add a trip - Vissers App</title>
+    <title>Pest Controle - Vissers App</title>
 </head>
 <body>    
     <div class="form-container outer">
@@ -29,39 +31,46 @@
                 <div class="form-container">
                     <div class="form-content">
                         
-                        <h1 class="">Add trip</h1>
-                        <p class="">Add the following details about the trip</p>
-                        
+                        <h1 class="">Pest control</h1>
+                        <hr>
                         <form class="text-left">
+                            <div class="timeline-line w-utility-center-div">
+                                <p class="font-weight-bold text">Certification</p>                                            
+                                <div class="item-timeline">
+                                    <p class="t-time font-weight-normal">Start</p>
+                                    <div class="t-dot t-dot-success" data-original-title="" title="">
+                                    </div>
+                                    <div class="t-text">
+                                        <p>16 FEB 2021</p>
+                                        <p class="t-meta-time">Certified on</p>
+                                    </div>
+                                </div>
+
+                                <div class="item-timeline">
+                                    <p class="t-time font-weight-normal">End</p>
+                                    <div class="t-dot t-dot-danger" data-original-title="" title="">
+                                    </div>
+                                    <div class="t-text">
+                                        <p>16 FEB 2022</p>
+                                        <p class="t-meta-time">Expires on</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <h6 class="text-primary" >Renew pest control</h6>
                             <div class="form">
                                 <div id="boat-name-field" class="field-wrapper input">
-                                    <label for="boat-name">DEP DATE</label>
+                                    <label for="boat-name">DATE</label>
                                     <input id="basicFlatpickr" value="" class="form-control flatpickr flatpickr-input active w-form-style" type="text" placeholder="Select Date.." readonly="readonly">
                                 </div>
                                 <div id="boat-name-field" class="field-wrapper input">
-                                    <label for="boat-name">ARRIVAL DATE</label>
+                                    <label for="boat-name">EXPIRY DATE</label>
                                     <input id="basicFlatpickr2" value="" class="form-control flatpickr flatpickr-input active w-form-style" type="text" placeholder="Select Date.." readonly="readonly">
                                 </div>
                                 <hr>
                                 
-                                <div id="select-fish-field" class="field-wrapper input">
-                                    <label for="select-fish-type">BROKEN TRIP</label>
-                                    <select class="form-control w-form-style">
-                                        <option>Choose..</option>
-                                        <option>Yess</option>
-                                        <option>No</option>
-                                    </select>
-                                </div>
-                                <div id="boat-reg-field" class="field-wrapper input">
-                                    <label for="boat-registration">SCORE</label>
-                                    <input id="boat-registration" name="boat-registration" type="number" class="form-control w-form-style" placeholder="e.g 239483">
-                                </div>
-                                <div id="boat-reg-field" class="field-wrapper input">
-                                    <label for="boat-registration">WEIGHT IN KILOGRAM</label>
-                                    <input id="boat-registration" name="boat-registration" type="number" class="form-control w-form-style" placeholder="e.g 5334">
-                                </div>
                                 <div id="boat-pic" class="">
-                                    <p class="mt-4 w-typo-style">ADD A PICTURES OF THE TRIP</p>
+                                    <p class="mt-4 w-typo-style">ADD A PICTURE OF THE PEST CONTROL</p>
                                     <div class="custom-file mb-4">
                                         <input type="file" class="custom-file-input mb-3" id="customFile">
                                         <label class="custom-file-label" for="customFile">Choose file</label>
@@ -69,7 +78,7 @@
                                 </div>
                                 <div class="d-sm-flex justify-content-between">
                                     <div class="field-wrapper">
-                                        <button type="submit" class="btn btn-primary" value="">Add Trip</button>
+                                        <button type="submit" class="btn btn-primary" value="">Save pest control</button>
                                     </div>
                                 </div>
                             </div>

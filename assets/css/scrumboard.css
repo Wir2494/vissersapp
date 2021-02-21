@@ -563,18 +563,18 @@
   font-size: 20px;
 }
 
-.w-util-change-size{
-  width: fit-content;
-  height: fit-content;
-}
+
 
 .w-util-change-size > a {
   color: var(--main-accent-color) !important;
   font-size: 1rem !important;
   font-weight: normal !important;
-  padding: 10px 0 !important;
+  padding: 15px 30px 15px 10px !important;
 }
 
+.w-p-30{
+  padding: 30px !important;
+}
 .w-fw {
   font-weight: normal !important;
   font-size: 14px;

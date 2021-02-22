@@ -610,5 +610,5 @@
 }
 
 .w-table {
-  overflow-x: unset;
+  width: 100%;
 }

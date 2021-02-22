@@ -598,3 +598,13 @@
   display: flex;
   justify-content: space-between;
 }
+
+.w-block-full-width {
+  display: block;
+  width: 100%;
+}
+
+.w-sum {
+  font-size: 18px;
+  font-weight: 700;
+}

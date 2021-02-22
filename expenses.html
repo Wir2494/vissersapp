@@ -44,60 +44,69 @@
                                     </select>
                                 </div>
                                 <hr>
-                                <div id="expenses-reg-field" class="field-wrapper input">
-                                    <label for="expenses-registration">FUEL QUANTITY IN LITERS</label>
-                                    <input id="expenses-registration" name="expenses-registration" type="number"
-                                        class="form-control w-form-style" placeholder="e.g 239483">
-                                </div>
-                                <div id="expenses-reg-field" class="field-wrapper input">
-                                    <label for="expenses-registration">PRICE</label>
-                                    <input id="expenses-registration" name="expenses-registration" type="number"
-                                        class="form-control w-form-style" placeholder="e.g 239483">
-                                </div>
-                                <hr>
-                                <div id="expenses-reg-field" class="field-wrapper input">
-                                    <label for="expenses-registration">ICE QUANTITY IN KG</label>
-                                    <input id="expenses-registration" name="expenses-registration" type="number"
-                                        class="form-control w-form-style" placeholder="e.g 239483">
-                                </div>
-                                <div id="expenses-reg-field" class="field-wrapper input">
-                                    <label for="expenses-registration">PRICE</label>
-                                    <input id="expenses-registration" name="expenses-registration" type="number"
-                                        class="form-control w-form-style" placeholder="e.g 239483">
+                                <div id="expenses-reg-field" class="field-wrapper input form-row">
+                                    <label for="fuel-quantity" class="w-block-full-width">FUEL</label>
+                                    <div class="col">
+                                        <input type="number" step="0.01" name="fuel-quantity" id="fuel-quantity"
+                                            class="form-control w-form-style" placeholder="Liters">
+                                    </div>
+                                    <div class="col">
+                                        <input type="number" step="0.01" name="fuel-price" id="fuel-price"
+                                            class="form-control w-form-style" placeholder="Price">
+                                    </div>
+                                    <div class="col">
+                                        <input type="number" step="0.01" name="fuel-total" id="fuel-total"
+                                            class="form-control w-form-style" placeholder="Total">
+                                    </div>
                                 </div>
                                 <hr>
-                                <div id="expenses-reg-field" class="field-wrapper input">
-                                    <label for="expenses-registration">FOOD</label>
-                                    <input id="expenses-registration" name="expenses-registration" type="number"
-                                        class="form-control w-form-style" placeholder="e.g 239483">
-                                </div>
-                                <div id="expenses-reg-field" class="field-wrapper input">
-                                    <label for="expenses-registration">PRICE</label>
-                                    <input id="expenses-registration" name="expenses-registration" type="number"
-                                        class="form-control w-form-style" placeholder="e.g 239483">
-                                </div>
-                                <hr>
-                                <div id="expenses-reg-field" class="field-wrapper input">
-                                    <label for="expenses-registration">SUPPLIES</label>
-                                    <input id="expenses-registration" name="expenses-registration" type="number"
-                                        class="form-control w-form-style" placeholder="e.g 239483">
-                                </div>
-                                <div id="expenses-reg-field" class="field-wrapper input">
-                                    <label for="expenses-registration">PRICE</label>
-                                    <input id="expenses-registration" name="expenses-registration" type="number"
-                                        class="form-control w-form-style" placeholder="e.g 239483">
+                                <div id="expenses-reg-field2" class="field-wrapper input form-row">
+                                    <label for="ice-quantity" class="w-block-full-width">ICE</label>
+                                    <div class="col">
+                                        <input type="number" step="0.01" name="ice-quantity" id="ice-quantity"
+                                            class="form-control w-form-style" placeholder="Kilograms">
+                                    </div>
+                                    <div class="col">
+                                        <input type="number" step="0.01" name="ice-price" id="ice-price"
+                                            class="form-control w-form-style" placeholder="Price">
+                                    </div>
+                                    <div class="col">
+                                        <input type="number" step="0.01" name="ice-total" id="ice-total"
+                                            class="form-control w-form-style" placeholder="Total">
+                                    </div>
                                 </div>
                                 <hr>
-                                <div id="expenses-reg-field" class="field-wrapper input">
-                                    <label for="expenses-registration">OTHER REMARKS</label>
-                                    <input id="expenses-registration" name="expenses-registration" type="number"
-                                        class="form-control w-form-style" placeholder="e.g 239483">
+                                <div id="expenses-reg-field3" class="field-wrapper input form-row">
+                                    <label for="food-quantity" class="w-block-full-width">FOOD</label>
+
+                                    <div class="col">
+                                        <input type="number" step="0.01" name="food-total" id="food-total"
+                                            class="form-control w-form-style" placeholder="Total">
+                                    </div>
                                 </div>
-                                <div id="expenses-reg-field" class="field-wrapper input">
-                                    <label for="expenses-registration">PRICE</label>
-                                    <input id="expenses-registration" name="expenses-registration" type="number"
-                                        class="form-control w-form-style" placeholder="e.g 239483">
+
+                                <div id="expenses-reg-field4" class="field-wrapper input">
+                                    <label for="supplies-total">SUPPLIES</label>
+                                    <input id="supplies-total" name="supplies-total" type="number" step="0.01"
+                                        class="form-control w-form-style" placeholder="e.g Total">
                                 </div>
+                                <div id="expenses-reg-field3" class="field-wrapper input form-row">
+                                    <label for="expenses-registration" class="w-block-full-width">OTHER</label>
+                                    <div class="col">
+                                        <input type="text" step="0.01" name="other-remarks" id="other-remarks"
+                                            class="form-control w-form-style" placeholder="Remarks">
+                                    </div>
+                                    <div class="col">
+                                        <input type="number" step="0.01" name="remarks-total" id="remarks-total"
+                                            class="form-control w-form-style" placeholder="Total">
+                                    </div>
+                                </div>
+                                <hr>
+                                <div id="expenses-reg-field4" class="field-wrapper input">
+                                    <label for="expenses-registration4">Sum Total</label>
+                                    <p id="sumTotal" class="text-success w-sum"></p>
+                                </div>
+
                                 <div class="d-sm-flex justify-content-between">
                                     <div class="field-wrapper">
                                         <button type="submit" class="btn btn-primary" value="">Add expenses</button>
@@ -122,6 +131,9 @@
     <script src="/js/app.js"></script>
     <script src="/assets/js/flatpickr/flatpickr.js"></script>
     <script src="/assets/js/flatpickr/custom-flatpickr.js"></script>
+
+    <!-- Custom expenses script -->
+    <script src="js/expenses.js"></script>
 </body>
 
 </html>

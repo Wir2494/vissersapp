@@ -608,3 +608,7 @@
   font-size: 18px;
   font-weight: 700;
 }
+
+.w-table {
+  overflow-x: unset;
+}

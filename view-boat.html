@@ -408,21 +408,18 @@
                                 </div>
 
                                 <div class="btn-group dropup mb-4 mr-2 show w-util-pos" role="group">
-                                    <button id="btnDropUpOutline" type="button"
-                                        class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown"
-                                        aria-haspopup="true" aria-expanded="true"><svg
-                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    <button type="button" class="btn btn-outline-primary dropdown-toggle"
+                                        aria-haspopup="true" aria-expanded="true" onclick="toggleDropUp()">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid">
                                             <rect x="3" y="3" width="7" height="7"></rect>
                                             <rect x="14" y="3" width="7" height="7"></rect>
                                             <rect x="14" y="14" width="7" height="7"></rect>
                                             <rect x="3" y="14" width="7" height="7"></rect>
-                                        </svg></button>
-                                    <div class="dropdown-menu dropdown-menu-right w-util-change-size"
-                                        aria-labelledby="btnDropUpOutline"
-                                        style="will-change: transform; position: absolute; transform: translate3d(0px, -190px, 0px); top: 0px; left: 0px;"
-                                        x-placement="top-start">
+                                        </svg>
+                                    </button>
+                                    <div class="w-dropup-menu w-dropup-toggle w-show w-util-change-size" id="navDropup">
                                         <a href="/view-trips.html" class="dropdown-item">Trip history</a>
                                         <a href="/add-trip.html" class="dropdown-item">Add trip</a>
                                         <a href="/add-quality-check.html" class="dropdown-item">Add quality check</a>
@@ -453,6 +450,12 @@
     <!-- END GLOBAL MANDATORY SCRIPTS -->
     <script src="assets/js/form-2.js"></script>
     <script src="/js/app.js"></script>
+
+    <script>
+        function toggleDropUp() {
+            document.getElementById("navDropup").classList.toggle('w-dropup-toggle');
+        }
+    </script>
 </body>
 
 </html>

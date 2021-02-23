@@ -653,3 +653,23 @@
   /* margin-right: 50px; */
 }
 
+.w-dropup-toggle{
+  display: none !important;
+}
+
+
+.w-show {
+  display: block;
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  z-index: 1000;
+  background-color: #FFF;
+  padding: 25px;
+  border-radius: 9px;
+  box-shadow: 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%), 0 3px 5px -1px rgb(0 0 0 / 20%);
+}
+
+.w-dropup-menu > a:hover {
+  background-color: #EEE;
+}

@@ -28,8 +28,17 @@
             <div class="form-form-wrap">
                 <div class="user-profile layout-spacing">
                     <div class="widget-content widget-content-area">
+                        <div class="history d-flex position-fixed w-border">
+                            <div class="icon-container mr-4 rounded" onclick="getHistory()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left text-success"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                            </div>
+                            <div class="icon-container rounded" onclick="goForward()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right text-success"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </div>
+                        </div>
+                        <hr>
                         <div class="d-flex justify-content-between">
-                            <h3 class="">Info</h3>
+                            <h2 class="">Info</h2>
                         </div>
                         <div class="text-center user-info">
                             <img src="assets/400x168.jpg" class="img-fluid mb-2" alt="scrumboard">
@@ -310,7 +319,7 @@
                                                             aria-hidden="true"></span>
                                                         <span class="sr-only">Previous</span>
                                                     </a>
-                                                    <a class="carousel-control-next" href="#carouselExample3
+                                                    <a class="carousel-control-next" href="#carouselExample3"
                                                         role=" button" data-slide="next">
                                                         <span class="carousel-control-next-icon"
                                                             aria-hidden="true"></span>
@@ -441,15 +450,17 @@
         </div>
     </div>
 
+    
 
     <!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
     <script src="bootstrap/js/libs/jquery-3.1.1.min.js"></script>
     <script src="bootstrap/js/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-
+    <script src="js/history.js"></script>
     <!-- END GLOBAL MANDATORY SCRIPTS -->
     <script src="assets/js/form-2.js"></script>
     <script src="/js/app.js"></script>
+
 
     <script>
         function toggleDropUp() {
